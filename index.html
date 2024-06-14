@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAV</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <form class="form-sav" novalidate>
+        <div class="container">
+            <input type="text" id="name" name="name" placeholder="Entrez votre nom" class="" minlength="3" required/>
+            <p class="nameInfo"></p>
+        </div>
+
+        <div class="container">
+            <input type="email" id="email" name="email" placeholder="Entrez votre email" class="" required/>
+            <p class="emailInfo"></p>
+        </div>
+
+        <div class="container">
+            <textarea name="message" id="message" placeholder="Message" class="" required></textarea>
+            <p class="infoTextarea"></p>
+        </div>
+
+        <div class="container">
+            <select name="note" id="note" class="">
+                <option value="" selected >Note</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <p class="infoSelect"></p>
+        </div>
+        <input type="submit" class="submit"/>
+    </form>
+    <img src="./assets/img/sav.jpg" alt="">
+</body>
+</html>
